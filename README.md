@@ -92,6 +92,7 @@ import ArimaTP
 
 file_csv = "datos.csv"
 name_columna = "TrafficCount"
+#Establece la cantidad de predicciones a 15
 ArimaTP.run(file_csv,name_columna,num_predictions=15)
 ```
 
