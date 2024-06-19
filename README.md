@@ -80,6 +80,21 @@ En la salida se obtendrán las fotos de los gráficos de predicciones
 ![Output](resources/output3.png)
 
 
+## Parámetros adicionales
+
+* **Puedes modificar la cantidad de predicciones que se realizan pasando como argumento:** num_predictions
+
+* **Por defecto se establece en 60**
+
+
+```python
+import ArimaTP
+
+file_csv = "datos.csv"
+name_columna = "TrafficCount"
+ArimaTP.run(file_csv,name_columna,num_predictions=15)
+```
+
 
 ## ¿ Cuándo usar ArimaTP como solución para proyectos ?
 
