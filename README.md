@@ -48,7 +48,7 @@ ArimaTP.run(file_csv,name_columna)
 * Recuerda sustituir **file_csv** por el nombre de tu archivo csv y **name_table** por el nombre de la columna que contiene los valores de interés
 
 
-![tabla](resorces/01.png)
+![tabla](resources/01.png)
 
 
 
